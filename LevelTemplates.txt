@@ -1,0 +1,62 @@
+# templates for playfield-building
+# Content behind # and completely empty lines will be ignored, use # for comments like this. ;)
+# A complete template consists of 11 lines:
+#  > The first line defines the weight of the template. A template with double the weight of another one will be chosen twice as likely as the other
+#  > The remaining 10 lines contain 14 characters each. Each character represents a place an object (e.g. a Stone) could be at.
+
+1 # empty template to copy & modify
+#      v places doors could be NEXT TO
++-----||-----+
+|            |
+|            |
+|            |
+-            -
+-            -
+|            |
+|            |
+|            |
++-----||-----+
+1 # example: stones next to doors
++----O||O----+
+|            |
+|            |
+O            O
+-            -
+-            -
+O            O
+|            |
+|            |
++----O||O----+
+1 # example: stones around center
++-----||-----+
+|            |
+|            |
+|    O  O    |
+-            -
+-            -
+|    O  O    |
+|            |
+|            |
++-----||-----+
+1 # a more complex example
++----O||O----+
+|            |
+|            |
+OO  OO  OO  OO
+-            -
+-            -
+OO  OO  OO  OO
+|            |
+|            |
++----O||O----+
+1 # example: a little maze
+OOOOOO||OOOOOO
+|    O     O |
+|    O     O |
+| O  OOOO  O |
+- O        O -
+- O        O -
+OOO  OOOO  O |
+|       O    |
+|       O    |
+OOOOOO||OOOOOO
