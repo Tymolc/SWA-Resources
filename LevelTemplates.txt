@@ -21,8 +21,8 @@
 |            |
 |            |
 O            O
--            -
--            -
+-     PP     -
+-     PP     -
 O            O
 |            |
 |            |
@@ -60,3 +60,4 @@ OOO  OOOO  O |
 |       O    |
 |       O    |
 OOOOOO||OOOOOO
+
