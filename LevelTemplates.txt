@@ -18,14 +18,14 @@
 +-----||-----+
 1 # example: stones next to doors
 +----O||O----+
-|           E|
+|           H|
 |            |
 O            O
 -     PP     -
 -     PP     -
 O            O
 |            |
-|E           |
+|H           |
 +----O||O----+
 1 # example: stones around center
 +-----||-----+
