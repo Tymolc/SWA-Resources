@@ -31,10 +31,10 @@ O            O
 +-----||-----+
 |            |
 |            |
-|    O  O    |
--            -
--            -
-|    O  O    |
+|    OPPO    |
+-    Pe P    -
+-    P  P    -
+|    OPPO    |
 |            |
 |            |
 +-----||-----+
@@ -54,7 +54,7 @@ OOOOOO||OOOOOO
 |    O     O |
 |    O     O |
 | O  OOOO  O |
-- O        O -
+- O   t    O -
 - O        O -
 OOO  OOOO  O |
 |       O    |
