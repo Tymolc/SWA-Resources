@@ -3,6 +3,15 @@
 # A complete template consists of 11 lines:
 #  > The first line defines the weight of the template. A template with double the weight of another one will be chosen twice as likely as the other
 #  > The remaining 10 lines contain 14 characters each. Each character represents a place an object (e.g. a Stone) could be at.
+#
+# Objects currently aviable:
+# O - a stone
+# P - a destructable stone
+# E - an enemy, that follows the player and shoots at him
+# T - an enemy, that stays where it is and shoots at the player
+# H - an enemy, that stays where it is and spawns small, weak enemies that follow the player and damage him on contact
+#
+# When using a lowercase letter, the object will appear shifted half a field to the bottom right
 
 0 # empty template to copy & modify
 #      v places doors could be NEXT TO
@@ -27,7 +36,7 @@ O            O
 |            |
 |H           |
 +----O||O----+
-1 # example: stones around center
+1 # example: stones around center with a trapped enemy inside
 +-----||-----+
 |            |
 |            |
